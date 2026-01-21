@@ -104,17 +104,14 @@ project/
 
 ### 5. Relicensing Rights
 
-* If you substantially modify AOL files, you may relicense under a different license.
+You may relicense substantially modified AOL files under a different license if:
 
-**Conditions (must meet 3 of 5):**
+- Modifications are **substantive and meaningful** (see Sections 4.x and 5.x)  
+*Altering logic, control flow, architecture, or adding impactful functionality*
+- You **own the copyright** to your changes
+- Required **consent from other contributors** has been obtained, if applicable
 
-* Rewrites >50% of lines
-* Changes core algorithms
-* Adds >200 lines of new logic
-* Modifies architecture/design
-* Integrates with new systems
-
-**Attribution must be preserved** for public distribution:
+**Attribution must be preserved** when relicensing:
 
 ```javascript
 /*
