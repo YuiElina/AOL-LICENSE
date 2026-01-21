@@ -1,5 +1,3 @@
----
-
 # Authentic Open License (AOL)
 
 ## TL;DR
@@ -13,8 +11,6 @@ Use AOL if you want:
 * Small team exemptions (<25 people)
 * Clear, measurable compliance rules
 * Relicensing rights for substantial modifications
-
----
 
 ## Why Not Traditional Licenses?
 
