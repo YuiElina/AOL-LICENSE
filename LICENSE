@@ -1,0 +1,533 @@
+================================================================================
+AUTHENTIC OPEN LICENSE (AOL)
+================================================================================
+
+FILE HEADER (Required for Public Distribution)
+--------------------------------------------------------------------------------
+
+/*
+ * This file is part of [Project Name], licensed under the 
+ * Authentic Open License (AOL).
+ *
+ * Personal use and limited sharing (under 25 people) is permitted 
+ * without license compliance requirements.
+ *
+ * Public distribution requires full compliance including attribution 
+ * and copyleft for AOL-licensed files only.
+ *
+ * See LICENSE file for details.
+*/
+
+================================================================================
+PREAMBLE
+================================================================================
+
+The Authentic Open License (AOL) promotes free and open software while 
+preserving authorship, respecting copyright holder consent, and rejecting 
+license overreach.
+
+This license recognizes that:
+1. Small-scale private sharing is common and difficult to enforce
+2. Each copyright holder controls only their own work
+3. Dependencies and external libraries retain their own licenses
+4. No license can override consent of separate copyright holders
+
+KEY PRINCIPLES:
+- File-level licensing: AOL applies only to files explicitly licensed under AOL
+- Consent-based: Only copyright holders can change license terms
+- No infection: External dependencies don't override AOL files
+- Relicensing permitted: Substantial modifications may be relicensed (with 
+  conditions)
+
+By using, modifying, or distributing this Software, you accept these terms.
+
+================================================================================
+1. DEFINITIONS
+================================================================================
+
+SOFTWARE: The source code, object code, binaries, documentation, and associated 
+files explicitly licensed under AOL.
+
+AOL-LICENSED FILES: Files containing an AOL license header or explicitly listed 
+as AOL-licensed in project documentation.
+
+YOU / LICENSEE: Any individual or entity exercising rights under this license.
+
+DERIVATIVE WORK: Any work based on, derived from, or incorporating 
+AOL-Licensed Files.
+
+DEPENDENCY: External libraries, packages, or modules used by the Software but 
+maintained as separate works with their own licenses.
+
+LIGHTLY MODIFIED: Changes limited to cosmetic or non-functional edits (see 
+Section 4).
+
+SUBSTANTIALLY MODIFIED: Changes that materially alter functionality, control 
+flow, algorithms, or data structures (see Section 4).
+
+PERSONAL USE: Use on your own devices without sharing with others.
+
+LIMITED SHARING: Distribution to fewer than 25 individuals via private channels:
+- Direct messages or private chat
+- Private repositories with explicit access control
+- Closed team environments
+- Private file sharing services
+
+PUBLIC DISTRIBUTION: Any distribution that:
+- Is posted to public repositories or websites
+- Is published to package registries
+- Is shared via social media or public forums
+- Exceeds 25 recipients
+- Involves commercial use or deployment
+- Is otherwise made available for unrestricted access
+
+COMMERCIAL USE: Use where revenue is derived from the Software's use, 
+distribution, or deployment.
+
+================================================================================
+2. GRANT OF RIGHTS
+================================================================================
+
+Subject to compliance with this license, you are granted a worldwide, 
+royalty-free, non-exclusive, perpetual license to:
+- Use the Software
+- Copy the Software
+- Modify AOL-Licensed Files
+- Create Derivative Works
+- Distribute the Software and Derivative Works
+- Sublicense Derivative Works (subject to Section 5)
+
+These rights apply to Personal Use, Limited Sharing, and Public Distribution, 
+with different compliance requirements as specified.
+
+================================================================================
+3. SCOPE OF COMPLIANCE
+================================================================================
+
+3.1 PERSONAL USE
+--------------------------------------------------------------------------------
+You may use and modify AOL-Licensed Files privately without attribution, 
+licensing, or compliance obligations.
+
+3.2 LIMITED SHARING (Under 25 People, Private)
+--------------------------------------------------------------------------------
+You may share AOL-Licensed Files or Derivative Works with fewer than 25 
+individuals via private channels without attribution or license compliance 
+requirements, provided:
+
+1. Distribution remains private (not publicly accessible)
+2. Use is non-commercial
+3. Recipients are explicitly identified or access is controlled
+
+No attribution or license headers are required for Limited Sharing.
+
+The authors acknowledge that enforcement of Limited Sharing violations is 
+impractical and will not pursue legal action against individuals engaged in 
+small-scale, non-commercial private sharing.
+
+3.3 PUBLIC DISTRIBUTION
+--------------------------------------------------------------------------------
+Public Distribution of AOL-Licensed Files requires:
+
+1. Attribution for unmodified or Lightly Modified files (Section 4.3)
+2. License preservation - AOL-Licensed Files must maintain AOL license
+3. Copyleft for AOL files - Derivative Works of AOL-Licensed Files must be AOL 
+   (unless Substantially Modified - see Section 5)
+4. Source availability - Source code must be available if binaries are 
+   distributed
+
+Dependencies and non-AOL files are NOT subject to AOL requirements (see 
+Section 13).
+
+================================================================================
+4. LIGHT VS SUBSTANTIALLY MODIFIED WORKS
+================================================================================
+
+4.1 LIGHTLY MODIFIED
+--------------------------------------------------------------------------------
+A modification is Lightly Modified if it affects only cosmetic, non-functional, 
+or trivial elements:
+
+EXAMPLES:
+- Renaming functions, variables, classes, or files
+- Adjusting formatting, indentation, whitespace
+- Modifying or adding comments
+- Reorganizing code without altering control flow
+- Adding wrapper functions that call existing logic unchanged
+- Translating variable/function names
+- Syntax changes that don't alter behavior (e.g., if/else to ternary)
+- Performance optimizations that don't change output
+
+Refactoring without behavior change is Lightly Modified.
+
+4.2 SUBSTANTIALLY MODIFIED
+--------------------------------------------------------------------------------
+A modification is Substantially Modified if it:
+
+LOGIC CHANGES:
+- Alters, rewrites, or extends functional logic
+- Changes control flow (loops, conditionals, error handling)
+- Modifies algorithms affecting behavior or output
+- Changes data structures affecting module behavior
+
+SCOPE CHANGES:
+- Adds new modules, classes, or files
+- Rewrites more than 30% of lines in an existing file beyond Lightly Modified changes (see Section 4.1)
+- Adds new functions to an existing module beyond trivial or cosmetic changes (see Section 4.1)
+- Integrates with new dependencies that materially change functionality or behavior
+
+EDGE CASES:
+- One-line bug fixes: Lightly Modified
+- Multiple edits, whether small or large, that together materially change functionality or behavior: Substantially Modified
+- Complete rewrite in a different language: Substantially Modified
+
+
+4.3 ATTRIBUTION REQUIREMENTS
+--------------------------------------------------------------------------------
+
+FOR PUBLIC DISTRIBUTION OF LIGHTLY MODIFIED AOL FILES:
+
+Attribution must include:
+
+FILE HEADER:
+/*
+ * Based on [Original Project] by [Original Author(s)]
+ * Licensed under Authentic Open License (AOL)
+ * Original source: [URL if available]
+ * 
+ * Modified by [Your Name] on [Date]
+ */
+
+README SECTION:
+## Attribution
+This project includes code from [Original Project] by [Author(s)],
+licensed under AOL.
+
+Original source: [URL]
+Modifications: [Brief description]
+
+MINIMUM: File headers for modified files OR prominent README section.
+
+FOR SUBSTANTIALLY MODIFIED WORKS:
+
+Attribution is optional (see Section 5 for relicensing rights).
+
+================================================================================
+5. RELICENSING RIGHTS FOR SUBSTANTIAL MODIFICATIONS
+================================================================================
+
+5.1 GENERAL PRINCIPLE
+--------------------------------------------------------------------------------
+AOL-Licensed Files must remain under AOL, except when Substantially Modified 
+as defined below.
+
+5.2 WHEN RELICENSING IS PERMITTED
+--------------------------------------------------------------------------------
+You MAY relicense Substantially Modified works to a different license IF all of the following conditions are met:
+
+CONDITION 1: Heavy Modification Threshold
+The work contains modifications that are substantive and meaningful according to Section 4.1. Substantive modifications must:
+
+- Alter or improve core algorithms, logic, or control flow
+- Add or restructure functionality that materially changes behavior
+- Change architecture or design patterns in a way that impacts the file’s operation
+- Integrate with new systems or dependencies that affect functionality
+
+Trivial changes, cosmetic edits, or unused code additions do not count, regardless of file size.
+
+CONDITION 2: Copyright Holder Consent
+For files with multiple contributors:
+
+- You must own copyright to your modifications
+- Relicensing is allowed only if:
+  - You obtain consent from all original contributors, OR
+  - Your modifications represent a substantial portion of the file’s functional content, OR
+  - Original content is negligible (less than 10% of functional content)
+
+CONDITION 3: Attribution Preserved
+Even when relicensing, you must preserve attribution:
+
+/*
+ * Portions originally from [Original Project] by [Author(s)]
+ * Original license: Authentic Open License (AOL)
+ * Substantially modified by [Your Name]
+ * Current license: [New License]
+*/
+
+5.3 WHEN RELICENSING IS NOT PERMITTED
+--------------------------------------------------------------------------------
+You may NOT relicense if:
+
+- Modifications are Lightly Modified (cosmetic or trivial)
+- Original authors explicitly prohibited relicensing in file headers
+- Changes do not meet the Heavy Modification Threshold
+- You lack consent from co-contributors where required
+
+5.4 NEW FILES
+--------------------------------------------------------------------------------
+New files you create (not derived from AOL-Licensed Files) may use any license you choose.
+
+================================================================================
+6. STRONG COPYLEFT FOR AOL FILES
+================================================================================
+
+6.1 COPYLEFT REQUIREMENT
+--------------------------------------------------------------------------------
+AOL-Licensed Files that are unmodified or Lightly Modified must remain under 
+AOL when publicly distributed.
+
+PROHIBITED:
+- Removing AOL license headers from AOL files
+- Relicensing AOL files under MIT, Apache, BSD, GPL, or proprietary licenses 
+  (unless Section 5 applies)
+- Distributing AOL files without source code availability
+
+6.2 COPYLEFT DOES NOT APPLY TO:
+--------------------------------------------------------------------------------
+- Dependencies (npm packages, system libraries, etc.)
+- New files you create
+- Substantially Modified files (if relicensing conditions are met)
+- Configuration files or build scripts
+
+================================================================================
+7. PROHIBITED USES
+================================================================================
+
+The Software may not be used:
+- For unlawful purposes under applicable law
+- To circumvent license terms in Public Distribution
+- In violation of export control or sanctions laws
+
+Personal Use and Limited Sharing violations will not be actively enforced.
+
+================================================================================
+8. PATENT GRANT
+================================================================================
+
+Each contributor grants you a worldwide, royalty-free, non-exclusive, perpetual 
+patent license to make, use, sell, offer for sale, import, and otherwise 
+transfer the Software and Derivative Works, to the extent the contributor has 
+patent claims covering the Software.
+
+8.1 PATENT LICENSE TERMINATION
+--------------------------------------------------------------------------------
+Your patent license terminates automatically if you:
+1. File patent infringement litigation claiming the Software infringes your 
+   patent
+2. Send written threats of such litigation
+
+8.2 SCOPE OF TERMINATION
+--------------------------------------------------------------------------------
+Termination:
+- Affects only you (the litigant)
+- Does not affect downstream recipients
+- Does not affect your right to Personal Use
+
+================================================================================
+9. DISCLAIMER OF WARRANTY
+================================================================================
+
+The Software is provided "AS IS", without warranty of any kind, express or 
+implied, to the maximum extent permitted by applicable law.
+
+This includes warranties of merchantability, fitness for a particular purpose, 
+title, and non-infringement.
+
+JURISDICTIONAL NOTE: Some jurisdictions do not allow complete exclusion of 
+implied warranties. In such cases, this disclaimer is limited to the maximum 
+extent permitted by law.
+
+================================================================================
+10. LIMITATION OF LIABILITY
+================================================================================
+
+To the maximum extent permitted by law, the authors and contributors are not 
+liable for:
+- Direct, indirect, incidental, special, or consequential damages
+- Loss of profits, data, or business opportunities
+- Any claims arising from use, modification, or distribution
+
+This limitation applies even if advised of the possibility of such damages.
+
+================================================================================
+11. TERMINATION
+================================================================================
+
+11.1 AUTOMATIC TERMINATION
+--------------------------------------------------------------------------------
+Your rights terminate automatically if you violate this license in Public 
+Distribution context, including:
+- Removing AOL license headers from AOL files
+- Failing to comply with attribution requirements
+- Relicensing without meeting Section 5 conditions
+
+11.2 EFFECT OF TERMINATION
+--------------------------------------------------------------------------------
+Upon termination:
+- You must cease all Public Distribution
+- Personal Use rights continue
+- Limited Sharing rights continue (if violation was only Public 
+  Distribution-related)
+- Compliant copies you distributed remain valid
+- Downstream recipients' rights are unaffected
+
+11.3 REINSTATEMENT
+--------------------------------------------------------------------------------
+Rights may be reinstated if you:
+1. Cure the violation within 30 days of notice
+2. Provide written confirmation of compliance
+
+================================================================================
+12. GOVERNING LAW
+================================================================================
+
+12.1 JURISDICTION NEUTRALITY
+--------------------------------------------------------------------------------
+This license does not specify a governing law jurisdiction. It shall be 
+interpreted according to:
+
+1. The copyright laws of the jurisdiction where enforcement is sought
+2. International copyright treaties (Berne Convention, WIPO Treaties)
+3. Applicable regional directives (EU Copyright Directive, etc.)
+
+12.2 SEVERABILITY
+--------------------------------------------------------------------------------
+If any provision of this license is held invalid or unenforceable in a 
+particular jurisdiction:
+- The remaining provisions remain in full effect
+- The invalid provision shall be interpreted to achieve its intent to the 
+  maximum extent permitted by law
+- The license as a whole remains valid
+
+12.3 INTERNATIONAL COMPATIBILITY
+--------------------------------------------------------------------------------
+This license is designed to be compatible with copyright principles recognized 
+internationally, including:
+- Exclusive rights of copyright holders
+- Requirements for consent in license changes
+- Recognition of separate works with separate licenses
+- Fair use and fair dealing doctrines (where applicable)
+
+No specific jurisdiction is favored. This license respects the copyright laws 
+of all jurisdictions while maintaining its core principles regarding copyright 
+holder consent and license boundaries.
+
+================================================================================
+13. LICENSE COMPATIBILITY AND DEPENDENCIES
+================================================================================
+
+13.1 CORE PRINCIPLE: FILE-LEVEL LICENSING
+--------------------------------------------------------------------------------
+AOL applies ONLY to AOL-Licensed Files.
+
+The license does NOT extend to:
+- Dependencies (external packages/libraries)
+- System libraries
+- Build tools
+- Configuration files
+- Files explicitly licensed under other licenses
+
+13.2 DEPENDENCIES AND EXTERNAL CODE
+--------------------------------------------------------------------------------
+When AOL-Licensed Files use dependencies (npm packages, system libraries, GPL
+libraries, etc.):
+
+EFFECT ON AOL FILES:
+- AOL-Licensed Files remain under AOL
+- Dependencies do NOT "infect" or override AOL files
+- Each work retains its original license
+
+EFFECT ON DEPENDENCIES:
+- Dependencies retain their original licenses
+- You must comply with dependency license terms
+- Dependency licenses do NOT control AOL files
+
+LEGAL BASIS:
+- Copyright applies only to copyrighted work
+- Dependencies are separate works with separate copyrights
+- No license can override copyright holder consent
+- Merely using/linking does not create derivative works
+
+13.3 GPL INCOMPATIBILITY AND RECOMMENDATIONS
+--------------------------------------------------------------------------------
+AOL is incompatible with licenses that claim to extend their terms to entire
+projects, including:
+- GNU General Public License (GPL v2, GPL v3)
+- GNU Affero General Public License (AGPL)
+
+POSITION:
+Each file retains its original license. AOL-Licensed Files remain under AOL
+regardless of what dependencies are used. GPL files remain GPL. Neither
+license overrides the other.
+
+AOL copyright holders have not consented to license conversion of AOL files
+under any circumstances.
+
+STRONG RECOMMENDATION:
+Avoid GPL-licensed dependencies in AOL projects. While each file technically
+retains its own license, the conflicting requirements create legal uncertainty
+and distribution difficulties.
+
+RECOMMENDED ALTERNATIVES:
+Instead of GPL libraries, use:
+- MIT License
+- BSD Licenses
+- Apache License 2.0
+- ISC License
+- Mozilla Public License 2.0
+
+These licenses are compatible with AOL and avoid legal conflicts.
+
+IF YOU MUST USE GPL CODE:
+- Understand that distribution may be legally problematic
+- Each file keeps its own license (no conversion)
+- You must comply with both licenses for their respective files
+- If compliance with both is impossible, distribution is prohibited
+- Seek legal counsel before distributing combined works
+
+13.4 COMPATIBLE LICENSES
+--------------------------------------------------------------------------------
+AOL works well with permissive licenses that do not claim project-wide scope:
+
+COMPATIBLE:
+- MIT License
+- BSD Licenses (2-Clause, 3-Clause)
+- Apache License 2.0
+- ISC License
+- Other permissive licenses
+
+Each component retains its original license when combined.
+
+13.5 PRACTICAL COMPATIBILITY
+--------------------------------------------------------------------------------
+For Public Distribution of combined works:
+1. Each component must comply with its own license
+2. Provide clear license notices for each component
+3. Make source code available as required by each license
+4. AOL files keep AOL headers
+5. Dependencies keep their own license notices
+
+If license requirements conflict and cannot both be satisfied, seek
+alternative dependencies or do not distribute the combined work.
+
+13.6 LEGAL DISCLAIMER
+--------------------------------------------------------------------------------
+This section represents the legal position of AOL copyright holders.
+
+Users combining AOL code with code under other licenses should seek
+independent legal counsel to understand their obligations and risks.
+
+Courts have not definitively ruled on license compatibility questions in
+most jurisdictions.
+
+================================================================================
+14. ACCEPTANCE
+================================================================================
+
+By using, modifying, or distributing the Software, you acknowledge that you
+have read, understood, and agree to be bound by the terms of the Authentic
+Open License (AOL).
+
+================================================================================
+END OF LICENSE
+================================================================================
