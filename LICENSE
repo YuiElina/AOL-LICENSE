@@ -1,4 +1,4 @@
-# AUTHENTIC OPEN LICENSE
+# AUTHENTIC OPEN LICENSE, VERSION 1.0
 ### A File-Level Weak Copyleft License
 
 ---
@@ -9,13 +9,13 @@
 
 ## PREAMBLE
 
-The Authentic Open License, ("License"), is a file-level weak copyleft license designed to promote the free use, modification, and distribution of software while ensuring that improvements to individually Licensed Files are returned to the commons. This License expressly rejects project-wide license propagation and disclaims any encumbrance upon independent works that interact with Licensed Files solely through their published application programming interfaces or documented data exchange protocols.
+The Authentic Open License, Version 1.0 ("License"), is a file-level weak copyleft license designed to promote the free use, modification, and distribution of software while ensuring that improvements to individually Licensed Files are returned to the commons. This License expressly rejects project-wide license propagation and disclaims any encumbrance upon independent works that interact with Licensed Files solely through their published application programming interfaces or documented data exchange protocols.
 
 This License is grounded in the following convictions:
 
 **(a)** Copyright subsists in the expressive output of individual authors, not in the combinatory act of software integration. No license may, by its own terms, impose obligations upon works in which the copyright holder has not consented to such an encumbrance.
 
-**(b)** A copyleft obligation proportionate in scope—attaching to derivative works of Licensed Files but not to software that merely interfaces with those files—best achieves the balance between openness and practical usability.
+**(b)** A copyleft obligation proportionate in scope -- attaching to derivative works of Licensed Files but not to software that merely interfaces with those files -- best achieves the balance between openness and practical usability.
 
 **(c)** Quantitative metrics are an imprecise and gameable proxy for the qualitative legal question of whether a work is derivative. This License therefore employs a functional standard to distinguish modifications that give rise to a derivative work from those that do not.
 
@@ -25,11 +25,11 @@ To protect these principles, this License imposes the following principal commit
 
 ---
 
-## SECTION 0 — DEFINITIONS
+## SECTION 0 -- DEFINITIONS
 
 As used in this License, the following terms shall have the meanings set forth below.
 
-**0.1 "License"** means this Authentic Open License.
+**0.1 "License"** means this Authentic Open License, Version 1.0.
 
 **0.2 "Licensor"** means the copyright holder or holders of a Licensed File, or any entity duly authorized by those copyright holders to grant rights under this License.
 
@@ -41,11 +41,11 @@ As used in this License, the following terms shall have the meanings set forth b
 
 **0.6 "Licensed File"** means any individual file, whether in Source Form or Object Form, that bears a notice placed by the Licensor indicating that it is subject to the terms of this License, or that is expressly identified as a Licensed File in project documentation maintained by the Licensor.
 
-**0.7 "Derivative Work"** means any work, whether in Source Form or Object Form, that is based upon, adapted from, or incorporates a Licensed File in a manner that requires copyright permission—namely, any work in which the protectable expression of the Licensed File is reproduced, adapted, or transformed.
+**0.7 "Derivative Work"** means any work, whether in Source Form or Object Form, that is based upon, adapted from, or incorporates a Licensed File in a manner that requires copyright permission -- namely, any work in which the protectable expression of the Licensed File is reproduced, adapted, or transformed.
 
 For the avoidance of doubt:
 
-> **(a)** A work constitutes a Derivative Work of a Licensed File only if it incorporates, adapts, or transforms the substantive expressive content of that Licensed File—including its algorithms, data structures, control flow logic, or functional architecture—such that a court of competent jurisdiction would recognize a copyright relationship between the original and the resulting work.
+> **(a)** A work constitutes a Derivative Work of a Licensed File only if it incorporates, adapts, or transforms the substantive expressive content of that Licensed File -- including its algorithms, data structures, control flow logic, or functional architecture -- such that a court of competent jurisdiction would recognize a copyright relationship between the original and the resulting work.
 
 > **(b)** A work does **not** constitute a Derivative Work of a Licensed File solely by reason of:
 > - (i) compilation against, linking with, or dynamic loading of the Licensed File or its Object Form;
@@ -64,7 +64,7 @@ For the avoidance of doubt:
 
 An Independent Module is **not** encumbered by the copyleft provisions of this License, regardless of whether it is compiled, linked, packaged, or distributed together with Licensed Files.
 
-**0.10 "Application Programming Interface"** or **"API"** means the set of declarations, function signatures, data type definitions, interface specifications, and documented behavioral contracts through which a Licensed File exposes its functionality to external callers—without requiring those callers to incorporate or reproduce the internal implementation of the Licensed File.
+**0.10 "Application Programming Interface"** or **"API"** means the set of declarations, function signatures, data type definitions, interface specifications, and documented behavioral contracts through which a Licensed File exposes its functionality to external callers -- without requiring those callers to incorporate or reproduce the internal implementation of the Licensed File.
 
 **0.11 "Combined Work"** means a work that is assembled from, or otherwise incorporates, one or more Licensed Files together with one or more Independent Modules, irrespective of whether such components are statically linked, dynamically linked, packaged together, or distributed as a collection.
 
@@ -97,7 +97,7 @@ Conveyance does **not** include internal Propagation within a single legal entit
 
 ---
 
-## SECTION 1 — GRANT OF COPYRIGHT LICENSE
+## SECTION 1 -- GRANT OF COPYRIGHT LICENSE
 
 Subject to the terms and conditions of this License, each Licensor hereby grants to You a worldwide, royalty-free, non-exclusive, perpetual, irrevocable copyright license to:
 
@@ -113,7 +113,7 @@ No sublicense granted pursuant to clause (d) may impose obligations on downstrea
 
 ---
 
-## SECTION 2 — GRANT OF PATENT LICENSE
+## SECTION 2 -- GRANT OF PATENT LICENSE
 
 Subject to the terms and conditions of this License, each Licensor hereby grants to You a worldwide, royalty-free, non-exclusive, perpetual, irrevocable license under any patent claims licensable by the Licensor that are necessarily infringed by the Licensed File as Conveyed by the Licensor, to make, have made, use, offer to sell, sell, import, and otherwise transfer Licensed Files and Covered Derivative Works.
 
@@ -125,21 +125,17 @@ Subject to the terms and conditions of this License, each Licensor hereby grants
 
 ---
 
-## SECTION 3 — PERSONAL USE AND PRIVATE CONVEYANCE
+## SECTION 3 -- PERSONAL USE AND PRIVATE CONVEYANCE
 
 **3.1 Personal Use.** You may reproduce and Propagate Licensed Files, with or without modification, solely for Your own personal or internal organizational use, without attribution, license notice, or any other compliance obligation under this License.
 
-**3.2 Private Conveyance.** You may Convey Licensed Files or Covered Derivative Works by means of Private Conveyance without attribution or license notice requirements, provided that:
+**3.2 Private Conveyance.** You may Convey Licensed Files or Covered Derivative Works by means of Private Conveyance -- including to specifically identified recipients through access-controlled, non-commercial channels -- without attribution, license notice, or source availability requirements.
 
-> **(a)** Conveyance is non-commercial;
-> **(b)** recipients are specifically identified and access is controlled; and
-> **(c)** the work is not made publicly accessible.
-
-The Licensor acknowledges that enforcement of Private Conveyance compliance is impractical and expressly undertakes not to pursue legal action against individuals engaged in good-faith, non-commercial private sharing of Licensed Files.
+The Licensor expressly waives the right to pursue legal action against any party engaged in good-faith private or small-scale non-commercial sharing of Licensed Files. This License imposes no compliance obligations upon Private Conveyance.
 
 ---
 
-## SECTION 4 — COPYLEFT OBLIGATION FOR PUBLIC CONVEYANCE
+## SECTION 4 -- COPYLEFT OBLIGATION FOR PUBLIC CONVEYANCE
 
 **4.1 Scope of Copyleft.** If You Publicly Convey a Covered Derivative Work, You must:
 
@@ -160,7 +156,7 @@ Such notice must not represent that the original Licensor endorsed or is respons
 
 ---
 
-## SECTION 5 — INTERFACE EXCEPTION: INDEPENDENT MODULES NOT ENCUMBERED
+## SECTION 5 -- INTERFACE EXCEPTION: INDEPENDENT MODULES NOT ENCUMBERED
 
 **5.1 Disclaimer of Viral Effect.** The copyleft provisions of Section 4 do not extend to Independent Modules. No obligation under this License attaches to any Independent Module solely because it:
 
@@ -180,31 +176,35 @@ Such notice must not represent that the original Licensor endorsed or is respons
 
 ---
 
-## SECTION 6 — CONVEYANCE IN SOURCE AND OBJECT FORM
+## SECTION 6 -- CONVEYANCE IN SOURCE AND OBJECT FORM
 
 **6.1 Conveyance in Source Form.** You may Publicly Convey a Licensed File or Covered Derivative Work in Source Form, provided You comply with Section 4.
 
 **6.2 Conveyance in Object Form.** You may Publicly Convey a Licensed File or Covered Derivative Work in Object Form, provided that You also fulfill **one** of the following:
 
 > **(a)** accompany the Object Form with a complete, machine-readable copy of the Corresponding Source, delivered on a physical or electronic medium commonly used for software exchange;
-> **(b)** provide, alongside the Object Form, a written offer—valid for a period of not less than three (3) years from the date of Conveyance—to furnish the Corresponding Source to any requesting party upon request and without additional charge; or
+> **(b)** provide, alongside the Object Form, a written offer -- valid for a period of not less than three (3) years from the date of Conveyance -- to furnish the Corresponding Source to any requesting party upon request and without additional charge; or
 > **(c)** make the Corresponding Source continuously available from a publicly accessible network location at no charge, for so long as Object Form remains available from that location.
 
 **6.3 Anti-Lockdown Provision.** If You Convey a Licensed File or Covered Derivative Work in Object Form as part of a device or embedded system in which the installation of modified versions of the Object Form is restricted or prevented by technological or contractual means, You must provide the recipient with all information, cryptographic keys, and authorizations within Your legal control that are necessary to install modified versions on the device. This obligation does not require You to provide warranty, support, or indemnification for any modified installation.
 
 ---
 
-## SECTION 7 — RELICENSING OF MATERIALLY MODIFIED COVERED DERIVATIVE WORKS
+## SECTION 7 -- RELICENSING OF MATERIALLY MODIFIED COVERED DERIVATIVE WORKS
 
 **7.1 General Rule.** Licensed Files must remain under this License upon Public Conveyance, except as expressly provided in this Section.
 
-**7.2 Permission to Relicense.** You may relicense a Covered Derivative Work—thereby releasing it under a license other than this License—if and only if all of the following conditions are satisfied:
+**7.2 Permission to Relicense.** You may relicense a Covered Derivative Work -- thereby releasing it under a license other than this License -- if and only if all of the following conditions are satisfied:
 
 > **(a) Material Modification.** The Covered Derivative Work incorporates Material Modifications, as defined in Section 0.17, that constitute a substantial and independent creative or technical contribution, and not merely cosmetic, incidental, or trivially additive alterations.
 
-> **(b) Copyright Ownership and Consent.** You hold copyright in the Material Modifications. Where the Licensed File has multiple copyright holders:
-> - (i) You must obtain the written consent of all copyright holders whose original contributions remain represented in the Covered Derivative Work; or
-> - (ii) Your Material Modifications constitute the predominant functional expression of the Covered Derivative Work, such that the original Licensed File's protectable expression is not materially represented therein.
+> **(b) Copyright Ownership and Consent.** You hold copyright in the Material Modifications. The question of whether contributor consent is required for relicensing is determined by a single test: whether protectable expression from the original Licensed File -- specifically, its algorithms, data structures, control flow logic, or functional architecture as originally expressed -- has been reproduced or adapted into the Covered Derivative Work in a form that would be actionable as copyright infringement absent a license.
+>
+> Where no such expression survives into the Covered Derivative Work, relicensing proceeds without contributor consent.
+>
+> Where such expression survives, You must obtain written consent from the copyright holders of the surviving portions only. Consent is not required from contributors whose expression does not survive into the Covered Derivative Work.
+>
+> For clarity: the complete rewrite of a Licensed File in a different programming language, or the complete replacement of its algorithms with independently developed alternatives, extinguishes the original expression and requires no contributor consent.
 
 > **(c) Attribution Preserved.** Each file in the relicensed Covered Derivative Work that incorporates material from a Licensed File must bear the following notice:
 
@@ -212,7 +212,7 @@ Such notice must not represent that the original Licensor endorsed or is respons
 /*
  * This file contains material originally from [Original Project],
  * authored by [Original Author(s)], and licensed under the
- * Authentic Open License.
+ * Authentic Open License, Version 1.0.
  * Substantially modified by [Your Name or Organization].
  * This file is now distributed under: [New License Name and URL].
  */
@@ -224,9 +224,9 @@ Such notice must not represent that the original Licensor endorsed or is respons
 
 ---
 
-## SECTION 8 — ADDITIONAL PERMISSIONS AND RESTRICTIONS
+## SECTION 8 -- ADDITIONAL PERMISSIONS AND RESTRICTIONS
 
-**8.1 Additional Permissions.** The Licensor may, within a Licensed File or in accompanying documentation, grant additional permissions beyond those provided by this License—including permission to relicense without the conditions of Section 7.2, or to exclude specific provisions. Additional permissions may be removed by any contributor with respect to that contributor's own contributions.
+**8.1 Additional Permissions.** The Licensor may, within a Licensed File or in accompanying documentation, grant additional permissions beyond those provided by this License -- including permission to relicense without the conditions of Section 7.2, or to exclude specific provisions. Additional permissions may be removed by any contributor with respect to that contributor's own contributions.
 
 **8.2 No Further Restrictions.** You may not place this License in combination with any other legal instrument or impose any contractual or technological measure that restricts downstream recipients in the exercise of rights expressly granted herein. You may not impose patent license obligations, copyleft encumbrances upon Independent Modules, or conditions of warranty, indemnification, or support as a prerequisite for receipt of Licensed Files.
 
@@ -234,7 +234,7 @@ Such notice must not represent that the original Licensor endorsed or is respons
 
 ---
 
-## SECTION 9 — TERMINATION
+## SECTION 9 -- TERMINATION
 
 **9.1 Automatic Termination.** Your rights to Publicly Convey Licensed Files or Covered Derivative Works terminate automatically, without requirement of notice, upon any material breach of the obligations set forth in Sections 4, 5.2, or 6. Such termination:
 
@@ -249,7 +249,7 @@ Such notice must not represent that the original Licensor endorsed or is respons
 
 ---
 
-## SECTION 10 — DISCLAIMER OF WARRANTY
+## SECTION 10 -- DISCLAIMER OF WARRANTY
 
 THE LICENSED FILES ARE PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, OR NON-INFRINGEMENT, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE LICENSED FILES IS BORNE BY YOU. SHOULD ANY LICENSED FILE PROVE DEFECTIVE, YOU ASSUME THE FULL COST OF ALL NECESSARY CORRECTION, SERVICING, OR REPAIR.
 
@@ -257,15 +257,15 @@ SOME JURISDICTIONS DO NOT PERMIT THE EXCLUSION OF IMPLIED WARRANTIES. IN SUCH JU
 
 ---
 
-## SECTION 11 — LIMITATION OF LIABILITY
+## SECTION 11 -- LIMITATION OF LIABILITY
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ANY LICENSOR OR CONTRIBUTOR BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATING TO YOUR USE, MODIFICATION, CONVEYANCE, OR INABILITY TO USE THE LICENSED FILES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF GOODWILL, LOSS OF DATA, LOSS OF PROFITS, LOSS OF REVENUE, BUSINESS INTERRUPTION, OR PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES—HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE), EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND EVEN IF ANY REMEDY SET FORTH HEREIN FAILS OF ITS ESSENTIAL PURPOSE.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ANY LICENSOR OR CONTRIBUTOR BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING OUT OF OR RELATING TO YOUR USE, MODIFICATION, CONVEYANCE, OR INABILITY TO USE THE LICENSED FILES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF GOODWILL, LOSS OF DATA, LOSS OF PROFITS, LOSS OF REVENUE, BUSINESS INTERRUPTION, OR PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES -- HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE), EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND EVEN IF ANY REMEDY SET FORTH HEREIN FAILS OF ITS ESSENTIAL PURPOSE.
 
 SOME JURISDICTIONS DO NOT PERMIT LIMITATIONS ON CERTAIN TYPES OF LIABILITY. IN SUCH JURISDICTIONS, THE ABOVE LIMITATION SHALL APPLY TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
 
 ---
 
-## SECTION 12 — INTERPRETATION AND SEVERABILITY
+## SECTION 12 -- INTERPRETATION AND SEVERABILITY
 
 **12.1 Interpretation.** This License shall be interpreted in a manner consistent with its stated purpose of promoting the free use and improvement of Licensed Files while respecting the legal autonomy of copyright holders and the practical interests of downstream users. Where any provision admits of ambiguity, it shall be construed in favor of the Licensee, consistent with the express intent of this License as declared in the Preamble.
 
@@ -275,13 +275,13 @@ SOME JURISDICTIONS DO NOT PERMIT LIMITATIONS ON CERTAIN TYPES OF LIABILITY. IN S
 
 ---
 
-## SECTION 13 — GOVERNING LAW
+## SECTION 13 -- GOVERNING LAW
 
 This License is jurisdiction-neutral. It shall be interpreted in accordance with the copyright law of the jurisdiction in which enforcement is sought and in conformity with applicable international copyright treaties, including the Berne Convention for the Protection of Literary and Artistic Works and the WIPO Copyright Treaty. No particular legal system or national jurisdiction is favored. The Licensor reserves all rights accorded to copyright holders under applicable law that are not expressly granted herein.
 
 ---
 
-## SECTION 14 — ACCEPTANCE
+## SECTION 14 -- ACCEPTANCE
 
 You are not required to accept this License in order to receive or use Licensed Files for personal purposes. However, by making Material Modifications to, or Publicly Conveying, any Licensed File or Covered Derivative Work, You are deemed to have accepted and agreed to be bound by all terms and conditions of this License with respect to that act.
 
@@ -294,14 +294,14 @@ The following notice should appear at the top of each Licensed File:
 ```
 /*
  * This file is part of [Project Name].
- * Licensed under the Authentic Open License, (AOL).
+ * Licensed under the Authentic Open License, Version 1.0 (AOL-1.0).
  *
  * You may use, copy, modify, and convey this file under the terms of
- * the AOL. Modifications to this file must be released under the
+ * the AOL-1.0. Modifications to this file must be released under the
  * same license upon Public Conveyance.
  *
  * Independent Modules that interact with this file solely through its
- * published API are NOT encumbered by AOL.
+ * published API are NOT encumbered by AOL-1.0.
  *
  * See LICENSE for full terms.
  * Original source: [URL if available]
@@ -311,4 +311,4 @@ The following notice should appear at the top of each Licensed File:
 
 ---
 
-*END OF AUTHENTIC OPEN LICENSE*
+*END OF AUTHENTIC OPEN LICENSE, VERSION 1.0*
